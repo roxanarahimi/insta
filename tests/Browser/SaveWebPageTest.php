@@ -13,7 +13,7 @@ class SaveWebPageTest extends DuskTestCase
     {
         $this->browse(function (Browser $browser) {
             // Open the webpage you want to save
-            $browser->visit('https://example.com')
+            $browser->visit('https://webagent.ir')
 
                 // Save a screenshot of the page
                 ->screenshot('example-page');
