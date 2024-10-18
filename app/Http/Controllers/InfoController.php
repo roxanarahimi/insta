@@ -72,6 +72,6 @@ class InfoController extends Controller
 
     public function test()
     {
-        (new SaveWebPageTest(''))->index();
+        (new SaveWebPageTest('chrome'))->index();
     }
 }
